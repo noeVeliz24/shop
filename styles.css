@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#tabla-articulos {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#tabla-articulos th, #tabla-articulos td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#tabla-articulos th {
+    background-color: #f2f2f2;
+}
+
+#formulario {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+#formulario label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#formulario input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.oculto {
+    display: none;
+}
+
+#btn-agregar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-agregar:hover {
+    background-color: #45a049;
+}
+
+#btn-guardar {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-guardar:hover {
+    background-color: #0074a8;
+}
+
